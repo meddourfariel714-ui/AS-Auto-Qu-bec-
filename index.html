@@ -1,15 +1,86 @@
-<!doctype html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AS Auto Québec</title><link rel="stylesheet" href="style.css"></head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS Auto Québec</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<header><b>AS <span>AUTO</span> QUÉBEC</b><nav><a href="#annonces">Acheter</a><a href="#vendre">Vendre ma voiture</a><a href="#connexion">Se connecter</a></nav></header>
-<section class="hero"><p>MARKETPLACE AUTOMOBILE AU QUÉBEC</p><h1>Achetez ou vendez votre voiture simplement.</h1><p>Une plateforme qui met directement en relation vendeurs et acheteurs.</p><a class="btn" href="#annonces">Rechercher une voiture</a> <a class="btn light" href="#vendre">Vendre ma voiture</a></section>
-<section class="search"><h2>Rechercher une voiture</h2><input placeholder="Marque ou modèle"><input placeholder="Prix maximum"><input placeholder="Ville au Québec"><button>Rechercher</button></section>
-<section id="annonces"><h2>Dernières annonces</h2><div class="cards">
-<article><div class="photo">🚗</div><h3>Toyota Corolla</h3><p>2022 · 48 000 km · Automatique</p><strong>22 500 $</strong><small>Montréal, QC</small><button>Contacter le vendeur</button></article>
-<article><div class="photo">🚙</div><h3>Honda CR-V</h3><p>2021 · 62 000 km · Automatique</p><strong>28 900 $</strong><small>Laval, QC</small><button>Contacter le vendeur</button></article>
-<article><div class="photo">🚘</div><h3>Volkswagen Golf</h3><p>2020 · 71 000 km · Manuelle</p><strong>19 800 $</strong><small>Québec, QC</small><button>Contacter le vendeur</button></article>
-</div></section>
-<section id="vendre" class="sell"><h2>Vendre ma voiture</h2><p>Créez votre compte, ajoutez les photos et les informations de votre véhicule, puis publiez votre annonce.</p><a class="btn" href="#connexion">Commencer à vendre</a></section>
-<footer>AS AUTO QUÉBEC — Marketplace automobile au Québec — Prototype</footer>
-</body></html>
+
+<header>
+  <h1>AS Auto Québec</h1>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#annonces">Annonces</a>
+    <a href="#vendre">Vendre ma voiture</a>
+    <a href="#connexion">Se connecter</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="accueil" class="hero">
+  <h2>Achetez ou vendez votre voiture au Québec</h2>
+  <p>La marketplace automobile qui met directement acheteurs et vendeurs en contact.</p>
+
+  <div class="buttons">
+    <a href="#annonces">Rechercher une voiture</a>
+    <a href="#vendre">Vendre ma voiture</a>
+  </div>
+</section>
+
+<section id="annonces">
+  <h2>Dernières annonces</h2>
+
+  <div class="cars">
+
+    <article class="car">
+      <div class="photo">🚗</div>
+      <h3>Toyota Corolla</h3>
+      <p>2020 · Automatique · 85 000 km</p>
+      <strong>18 500 $</strong>
+      <button>Voir l'annonce</button>
+    </article>
+
+    <article class="car">
+      <div class="photo">🚙</div>
+      <h3>Honda CR-V</h3>
+      <p>2021 · Automatique · 62 000 km</p>
+      <strong>27 900 $</strong>
+      <button>Voir l'annonce</button>
+    </article>
+
+    <article class="car">
+      <div class="photo">🚘</div>
+      <h3>Volkswagen Golf</h3>
+      <p>2019 · Automatique · 91 000 km</p>
+      <strong>19 800 $</strong>
+      <button>Voir l'annonce</button>
+    </article>
+
+  </div>
+</section>
+
+<section id="vendre" class="sell">
+  <h2>Vous voulez vendre votre voiture ?</h2>
+  <p>Créez votre annonce et présentez votre voiture aux acheteurs du Québec.</p>
+  <button>Publier mon annonce</button>
+</section>
+
+<section id="connexion">
+  <h2>Mon compte</h2>
+  <button>Créer un compte</button>
+  <button>Se connecter</button>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 AS Auto Québec — Marketplace automobile au Québec</p>
+</footer>
+
+</body>
+</html>
